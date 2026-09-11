@@ -15,8 +15,6 @@ main / (root) 設定及網站網址保持不變。
 ## 新增 MARKET DIARY 相片
 進入 repository 最外層的 `market-gallery` 資料夾，按 Add file → Upload files，把新相片上載並 Commit。網站重新整理後會自動讀取資料夾內所有 JPG、JPEG、PNG、WebP、AVIF 及 GIF，不需要修改程式。
 
-舊版三張產品示範相已從網站版本移除並停止顯示；`market-gallery` 只會用作市集、攤位及活動紀錄。
-
 建議檔名使用日期開頭，例如 `2026-10-brixton-market-01.jpg`；最新日期會優先顯示。每張圖片最好控制在 2MB 以內，避免手機載入太慢。
 
 ## 可編輯原始碼
