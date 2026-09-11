@@ -1,0 +1,20 @@
+# JNL STUDIO — 市集參展作品集
+用途：向市集主辦方、策展及招商團隊介紹品牌與產品。
+已移除全部價格、購物車及結帳。保留七款產品、互動詳情、市集合作介紹，並加入由 GSAP ScrollTrigger 驅動的捲動故事。
+聯絡：jnlstudio.design@gmail.com（點擊聯絡按鈕會開啟使用者的電郵程式）。
+
+## 更新已有 GitHub Pages
+解壓 JNL-STUDIO-Market-Portfolio-GitHub-Pages.zip。
+在 jimmylohk/jnl-studio 按 Add file → Upload files。
+上載全部內容，包括 index.html、assets、objects、favicon.svg、README.md、.nojekyll。
+檔案須位於 repository 最外層。按 Commit changes，等待 Actions 綠色剔號。
+main / (root) 設定及網站網址保持不變。
+此 ZIP 不會自行更新 GitHub。
+舊版 assets 若保留，不會被新版 index.html 使用；確認新版顯示後可清理舊檔。
+
+## 可編輯原始碼
+使用另一個 Market-Portfolio-Source.zip。
+app/page.tsx：GSAP 捲動場景、產品詳情及頁面內容。
+lib/catalog.ts：七款產品文字與圖片。
+app/globals.css：視覺、版面與流動裝置設計。
+npm ci 後 npm run build 產生 dist/；只上載 dist/ 的內容。
