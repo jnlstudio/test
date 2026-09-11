@@ -5,12 +5,17 @@
 
 ## 更新已有 GitHub Pages
 解壓 JNL-STUDIO-Market-Portfolio-GitHub-Pages.zip。
-在 jimmylohk/jnl-studio 按 Add file → Upload files。
-上載全部內容，包括 index.html、assets、objects、favicon.svg、README.md、.nojekyll。
+在 jnlstudio/test 按 Add file → Upload files。
+上載全部內容，包括 index.html、assets、objects、market-gallery、favicon.svg、README.md、.nojekyll。
 檔案須位於 repository 最外層。按 Commit changes，等待 Actions 綠色剔號。
 main / (root) 設定及網站網址保持不變。
 此 ZIP 不會自行更新 GitHub。
 舊版 assets 若保留，不會被新版 index.html 使用；確認新版顯示後可清理舊檔。
+
+## 新增 MARKET DIARY 相片
+進入 repository 最外層的 `market-gallery` 資料夾，按 Add file → Upload files，把新相片上載並 Commit。網站重新整理後會自動讀取資料夾內所有 JPG、JPEG、PNG、WebP、AVIF 及 GIF，不需要修改程式。
+
+建議檔名使用日期開頭，例如 `2026-10-brixton-market-01.jpg`；最新日期會優先顯示。每張圖片最好控制在 2MB 以內，避免手機載入太慢。
 
 ## 可編輯原始碼
 使用另一個 Market-Portfolio-Source.zip。
