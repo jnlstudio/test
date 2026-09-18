@@ -1,5 +1,2 @@
-呢個係可直接發布版本。
-解壓後將 index.html、assets 資料夾及其餘檔案放入 GitHub test repository 根目錄，覆蓋同名檔案。
-唔好只上載 ZIP，唔好再包多一層資料夾。
-Settings > Pages > Deploy from a branch > main > /(root)。
-等 GitHub 完成發布後開啟 https://jnlstudio.github.io/test/ 。
+電影背景版：解壓後將全部檔案（index.html、assets 等）上載到 GitHub test 根目錄，覆蓋同名檔案。不要只上載 ZIP，不要再包一層資料夾。等待 Pages 發布完成，再重新整理網站。
+首頁會靜音自動循環播放，可用右下角按鈕暫停。系統減少動態效果或瀏覽器阻止自動播放時，可按播放影片。
