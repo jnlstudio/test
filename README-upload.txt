@@ -1,16 +1,8 @@
-AFTER DARK / JNL STUDIO — 新版產品展示網站
+AFTER DARK — ENGLISH EDITION
 
-上載方法
-1. 解壓 ZIP。
-2. 將 index.html、style.css、app.js、assets 資料夾及其他檔案放入 test 儲存庫根目錄，覆蓋同名檔案。不要只上載 ZIP，亦不要多包一層資料夾。
-3. 保留現有 GitHub Pages 發布設定，等發布完成。
-4. 開啟 https://jnlstudio.github.io/test/ ，如仍見舊版，強制重新整理。
-
-網站無需安裝或編譯，所有圖片和影片均已包含。
-電腦版：產品細節隨捲動切換，也可點選。
-手機版：正常捲動並點選三項細節。
-影片：保留已確認 7.25 秒靜音循環版；離開畫面自動暫停。
-支援減少動態效果、鍵盤操作、原圖放大、複製產品資料。
-
-編輯文字：index.html；版面：style.css；互動：app.js。
-本頁為產品展示，未接入購物或付款功能。尺寸、價格和材質未獲提供，沒有自行填寫。
+Extract the ZIP and upload all contents into your test repository root, replacing matching files. Do not upload the ZIP itself or add an enclosing folder.
+Keep your existing GitHub Pages settings. Wait for publication, then refresh https://jnlstudio.github.io/test/ .
+No build step is needed. HTML, CSS, JavaScript and all media are included.
+The original 7.25-second loop and interactions are preserved. Copy, labels and metadata are now English.
+Edit index.html for copy, style.css for styling and app.js for interactions.
+This remains a product showcase, with no checkout or payment integration.
